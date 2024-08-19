@@ -21,6 +21,10 @@ By using these components, HawkV6 ensures that application traffic is dynamicall
 
 ## Interacting with HawkV6
 
+<p align="center">
+  <img src="/img/Hawkv6-Intent-Interaction.drawio.svg" alt="HawkV6 Workflow">
+</p>
+
 Users can define their intents, and the rest is handled by the application.
 
 1. **Define Intents:** The user defines the HawkWing configuration, specifying the desired intents for the application. 
@@ -31,9 +35,6 @@ Users can define their intents, and the rest is handled by the application.
 6. **Continuous Network Monitoring:** The network continuously sends updates, which the HawkEye controller receives and processes.
 7. **Recalculation and Adjustment:** The HawkEye controller triggers a recalculation based on received network and service updates and sends an updated segment list to the HawkWing application if necessary to adjust the packet routing accordingly.
 
-<div style="text-align: center;">
-  <img src="/img/Hawkv6-Intent-Interaction.drawio.svg" alt="HawkV6 Workflow">
-</div>
 
 ## Repositories
 The HawkV6 project comprises several key components:
